@@ -1,0 +1,35 @@
+
+#body{
+    background-color: bisque;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.label{
+    font-family: 'Courier New', Courier, monospace;
+}
+#usage_selector{
+    font-family: 'Courier New', Courier, monospace;
+}
+#budget_selector{
+    font-family: 'Courier New', Courier, monospace;
+}
+.label_box{
+    position: relative;
+    bottom: 2%;
+}
+#generate{
+    position:relative;
+    top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.output_text{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 2%;
+}
+#output{
+    background-color: burlywood;
+    width: relative;
+}

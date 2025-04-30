@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "main.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body id = "body">
+        <h1 class = "title">Automated Track Bike Builder</h1>
+        <div class = "label_box"></div>
+            <label for = "budget" class="label">What's your budget?</label>
+            <input type = "text" name = "budget" id = "budget_selector">
+            <label>$</label>
+        </div>
+        <button id = "generate" onclick= "build_a_bike(retrieve_budget())">Generate Bike</button>
+        <div id = "output">
+            <b class = "output_text">Parts List:</b><br>
+            <b class = "output_text" id = "frame_output"></b><br>
+            <b class = "output_text" id = "wheelset_output"></b><br>
+            <b class = "output_text" id = "crankset_output"></b><br>
+            <b class = "output_text" id = "stem_output"></b><br>
+            <b class = "output_text" id = "bars_output"></b><br>
+        </div>
+    </body>
+</html>
